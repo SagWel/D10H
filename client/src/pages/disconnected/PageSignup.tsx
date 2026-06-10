@@ -351,7 +351,7 @@ const PageSignup: React.FC<IPageSignupProps> = () => {
                 _hover={{ textDecor: "none" }}
               >
                 <LogoTempo />
-                &nbsp;D10H !
+                &nbsp;D10H
               </Link>
             </Flex>
           </Flex>

@@ -38,7 +38,7 @@ const PageInfos: React.FC<IPageInfosProps> = () => {
                 zIndex={"201"} cursor={"pointer"}
                 _hover={{textDecor: "none"}}>
                     <LogoTempo />
-                    &nbsp;D10H !
+                    &nbsp;D10H
                 </Link>
                 {width >= desktopBreackpoint && <Flex className='topbar-exposed-links' justify={'flex-end'} flexDir={"row"} flexGrow={1}
                 ml={"112px"} mr={"calc(14px*2)"}>
@@ -326,7 +326,7 @@ const PageInfos: React.FC<IPageInfosProps> = () => {
                         fontSize={"35px"} fontWeight={"700"}
                         color={"#0f0d13"}
                         lineHeight={"1.2"} textAlign={"center"}>
-                            La lecture musical par D10H !
+                            La lecture musicale par D10H
                         </Text>
                         <Text as={"p"} display={"block"}
                         marginBlock={"1em"} marginInline={0}

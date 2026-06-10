@@ -143,7 +143,7 @@ const PageLogin: React.FC<IPageLoginProps> = () => {
                 color={"#fdfcfe"}
                 _hover={{ textDecor: "none", color: "#a238ff" }}
               >
-                D10H !
+                D10H
               </Link>
             </Flex>
           </Flex>

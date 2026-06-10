@@ -2,8 +2,8 @@
 
 require_once '../models/userModel.php';
 
-$email = $_GET['email'];
-$password = $_GET['password'];
+$email = $_POST['email'];
+$password = $_POST['password'];
 
 $user = getUserByEmail($pdo, $email);
 

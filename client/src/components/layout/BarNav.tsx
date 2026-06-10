@@ -45,7 +45,7 @@ const BarNav: React.FC<IBarNavProps> = () => {
                             color: '#bb73ff',
                             textDecor: 'none'
                         }}>
-                            D10H !
+                            D10H
                         </Link>
                     </Box>
                     <a id="Deezer_Link" href="https://www.deezer.com/">
