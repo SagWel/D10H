@@ -23,16 +23,16 @@ https://www.docker.com/get-started/
    cp .env.example .env
    ```
 
-   Edit VITE_HOST *localhost* sauf si configuration personel autre
+   Edit VITE*HOST \_localhost* sauf si configuration personel autre
 
 3. Creat and edit .env back :
-  
-    ```bash
-    cd../server
-    cp .env.example .env
-    ```
 
-    Edit MYSQL_HOST, MYSQL_PORT, MYSQL_NAME, MYSQL_USER and MSQL_PWD with db environement content in `docker-commpose.yml`
+   ```bash
+   cd../server
+   cp .env.example .env
+   ```
+
+   Edit MYSQL_HOST, MYSQL_PORT, MYSQL_NAME, MYSQL_USER and MSQL_PWD with db environement content in `docker-commpose.yml`
 
 4. Start Docker service :
 
@@ -83,7 +83,168 @@ https://www.docker.com/get-started/
    - Preview audio on Score cards
    - New carousels for more than just scores
    - Searchbar stabilisation
-  
+
+## Tree Structure
+
+D10H  
+├── Prototype D10H !.url  
+├── README.md  
+├── client  
+│ ├── Dockerfile  
+│ ├── index.html  
+│ ├── public  
+│ │ ├── data  
+│ │ │ └── scores.json  
+│ │ ├── imgs  
+│ │ │ └── FondPart.jpg  
+│ │ └── svg  
+│ │ └── logo-horizontal-white-text.svg  
+│ ├── seed.cjs  
+│ └── src  
+│ ├── App.tsx  
+│ ├── components  
+│ │ ├── MenuSelect.tsx  
+│ │ ├── OtherCarousel.tsx  
+│ │ ├── ScoreCarousel.tsx  
+│ │ ├── ScoreRender.tsx  
+│ │ ├── Svg.tsx  
+│ │ ├── UserInstrumentManagement.tsx  
+│ │ ├── buttons  
+│ │ │ ├── StandardButton.tsx  
+│ │ │ └── ToolButton.tsx  
+│ │ ├── cards  
+│ │ │ ├── InstrumentCard.tsx  
+│ │ │ ├── OtherInstrumentCard.tsx  
+│ │ │ └── ScoreCard.tsx  
+│ │ ├── layout  
+│ │ │ ├── BarNav.tsx  
+│ │ │ ├── BarNavMin.tsx  
+│ │ │ ├── Header.tsx  
+│ │ │ ├── HeaderMin.tsx  
+│ │ │ ├── Playeur.tsx  
+│ │ │ ├── PlayeurMin.tsx  
+│ │ │ └── Tools.tsx  
+│ │ ├── modals  
+│ │ │ ├── ModalManager.tsx  
+│ │ │ ├── StandardModal.tsx  
+│ │ │ └── childrens  
+│ │ │ ├── FirstEditProfil.tsx  
+│ │ │ └── TempoManager.tsx  
+│ │ └── scoreRendering  
+│ │ └── ScoreRenderSing.tsx  
+│ ├── context  
+│ │ ├── AuthContext.tsx  
+│ │ ├── ModalsContext.tsx  
+│ │ ├── PlayScoreContext.tsx  
+│ │ ├── ScoreContext.tsx  
+│ │ └── SearchContext.tsx  
+│ ├── hooks  
+│ │ ├── useAuth.tsx  
+│ │ ├── useModals.tsx  
+│ │ ├── usePlayScore.tsx  
+│ │ ├── useScore.tsx  
+│ │ ├── useSearchHistory.tsx  
+│ │ └── useWindowWidth.tsx  
+│ ├── main.tsx  
+│ ├── pages  
+│ │ ├── connected  
+│ │ │ ├── PageAllInstruments.tsx  
+│ │ │ ├── PageHome.tsx  
+│ │ │ ├── PageMorceau.tsx  
+│ │ │ ├── PageSearch.tsx  
+│ │ │ ├── PageSearchInstrument.tsx  
+│ │ │ ├── PageUserInstruments.tsx  
+│ │ │ ├── account  
+│ │ │ │ ├── PageAccount.tsx  
+│ │ │ │ ├── PageAccountCountry.tsx  
+│ │ │ │ ├── PageAccountDevices.tsx  
+│ │ │ │ ├── PageAccountDisplay.tsx  
+│ │ │ │ ├── PageAccountNotifications.tsx  
+│ │ │ │ ├── PageAccountShare.tsx  
+│ │ │ │ └── PageApps.tsx  
+│ │ │ └── favoris  
+│ │ │ ├── PageFavoris.tsx  
+│ │ │ ├── PageHistory.tsx  
+│ │ │ ├── PageScorbaries.tsx  
+│ │ │ └── PageScorbrary.tsx  
+│ │ └── disconnected  
+│ │ ├── PageInfos.tsx  
+│ │ ├── PageLogin.tsx  
+│ │ ├── PageResetPassword.tsx  
+│ │ └── PageSignup.tsx  
+│ ├── style.css  
+│ ├── theme.ts  
+│ └── types  
+│ ├── Deezer.ts  
+│ ├── Score.ts  
+│ ├── global.ts  
+│ ├── instrument.ts  
+│ └── user.ts  
+├── db  
+│ ├── init.sql  
+│ ├── install.php  
+│ └── seed.sql  
+├── docker-compose.yml  
+├── personas.md  
+├── schéma_bdd.png  
+├── screenshot.png  
+└── server  
+ ├── Dockerfile  
+ ├── config  
+ │ └── db.php  
+ ├── controllers  
+ │ ├── addUserHistoryController.php  
+ │ ├── allInstrumentsController.php  
+ │ ├── authController.php  
+ │ ├── checkAuthController.php  
+ │ ├── creatUserController.php  
+ │ ├── creatUserInstrumentsController.php  
+ │ ├── deleteAccountController.php  
+ │ ├── editPasswordController.php  
+ │ ├── filterExplicitController.php  
+ │ ├── foundByEmailController.php  
+ │ ├── historyController.php  
+ │ ├── logoutController.php  
+ │ ├── newsController.php  
+ │ ├── popularController.php  
+ │ ├── scoreController.php  
+ │ ├── scoresInstrumentsController.php  
+ │ ├── searchScoreController.php  
+ │ ├── suggestionsController.php  
+ │ ├── updateProfilController.php  
+ │ └── userInstrumentsController.php  
+ ├── middlewares  
+ │ ├── CheckCreatUser.php  
+ │ ├── CheckEditPassword.php  
+ │ ├── CheckEmail.php  
+ │ ├── CheckFilterExplicitChoice.php  
+ │ ├── CheckInstrument.php  
+ │ ├── CheckLogin.php  
+ │ ├── CheckNumericId.php  
+ │ ├── CheckProfilInputs.php  
+ │ └── CheckQuery.php  
+ ├── models  
+ │ ├── instrumentsModel.php  
+ │ ├── scoresModel.php  
+ │ └── userModel.php  
+ ├── public  
+ │ ├── index.php  
+ │ └── uploads  
+ │ ├── avatars  
+ │ ├── instruments  
+ │ │ ├── Basse.png  
+ │ │ ├── Batterie.png  
+ │ │ ├── Chant.png  
+ │ │ ├── Flute.png  
+ │ │ ├── Guitare.png  
+ │ │ ├── Piano.png  
+ │ │ ├── Saxophone.png  
+ │ │ └── Ukulele.png  
+ │ └── previews  
+ │ └── partition_1.png  
+ ├── utils  
+ └── └── mapperScores.php
+
 ## Preview
 
 ![Screenshot of app](./screenshot.png)
