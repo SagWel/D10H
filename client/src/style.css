@@ -1,0 +1,138 @@
+a {
+    -webkit-user-drag: none;
+}
+
+.note-active g {
+    fill: #ad47ff !important;
+    stroke: #ad47ff !important;
+}
+
+.topbar-exposed-links a:not(:last-of-type) {
+    margin-right: calc(14px*1.5) !important;
+}
+
+.stack>:not(:last-child) {
+    margin-right: calc(14px*2);
+}
+
+.chakra-popover__popper{
+    margin-inline-start: 0.25rem;
+}
+
+@media screen and (min-width: 724px) {
+    .css-merrtw, .css-1p4s6so {
+        display: inherit !important;
+        padding-inline-start: 80px !important;
+        padding-inline-end: 80px !important;
+        border-bottom: solid 1px !important; 
+    }
+    
+    .css-es59od {
+        display: none !important;
+        padding-inline-start: 80px !important;
+        padding-inline-end: 80px !important;
+        border-bottom: solid 1px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .topbar {
+        padding-left: 64px !important;
+        padding-right: 64px !important;
+        height: 80px !important;
+        border-bottom: 1px solid #555257 !important;
+    }
+
+    .topbar-action:not(.burger-menu) {
+        display: inline-flex !important;
+    }
+
+    #page-homepage-brand {
+        --title-fontsize: 140px !important;
+        --subtitle-fontsize: 35px !important;
+    }
+    
+    .css-rpfvsj, .css-hptv2g, .css-1yidl7s, .css-13pjprk, .css-qdkt6m, .css-1drfrs9 {
+        width: 716px;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .css-rpfvsj, .css-hptv2g, .css-1yidl7s, .css-13pjprk, .css-qdkt6m, .css-1drfrs9 {
+        width: 826px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .css-merrtw, .css-es59od {
+        padding-inline-start: 112px !important;
+        padding-inline-end: 112px !important;
+    }
+
+    .css-dk54ph {
+        font-size: 80px !important;
+        font-weight: 700 !important;
+        line-height: 80px !important;
+        text-decoration: none !important;
+    }
+
+    .css-hflqn5 {
+        gap: 3rem !important;
+    }
+
+    .css-1tb59qo {
+        font-size: 46px !important;
+        font-weight: 700 !important;
+        line-height: 46px !important;
+        text-decoration: none;
+    }
+
+    .css-ie55x3 {
+        gap: 2rem !important
+    }
+}
+
+@media screen and (min-width: 1160px){
+    .topbar {
+        padding-left: 112px !important;
+        padding-right: 112px !important; 
+    }
+
+    #page-homepage-brand {
+        font-size: 56px !important;
+    }
+
+    #page-homepage-brand .sticky-banner {
+        max-width: min(1120 - 56px, 100% - calc(14px*2) * 2) !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .css-merrtw, .css-es59od {
+        padding-inline-start: 192px !important;
+        padding-inline-end: 192px !important;
+    }
+
+    .css-rpfvsj, .css-hptv2g, .css-1yidl7s, .css-13pjprk, .css-qdkt6m, .css-1drfrs9 {
+        width: 902px;
+    }
+}
+
+@media screen and (min-width: 1310px) {
+
+    .css-rpfvsj, .css-hptv2g, .css-1yidl7s, .css-13pjprk, .css-qdkt6m, .css-1drfrs9 {
+        width: 1304px;
+    }
+}
+
+@media screen and (min-width: 1430px) {
+    .css-rpfvsj, .css-hptv2g, .css-1yidl7s, .css-13pjprk, .css-qdkt6m, .css-1drfrs9 {
+        width: 1154px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .css-rpfvsj, .css-hptv2g, .css-1yidl7s, .css-13pjprk, .css-qdkt6m, .css-1drfrs9 {
+        width: 1425px;
+    }
+}

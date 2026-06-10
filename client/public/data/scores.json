@@ -1,0 +1,2580 @@
+{
+    "scores": [
+        {
+            "id": 1,
+            "title": "Michelle",
+            "artist": {
+                "id": 1,
+                "name": "The Beatles",
+                "deezer_link": "https://www.deezer.com/artist/1",
+                "picture": "https://api.deezer.com/artist/1/image",
+                "picture_small": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/56x56-000000-80-0-0.jpg",
+                "picture_medium": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/250x250-000000-80-0-0.jpg",
+                "picture_big": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/500x500-000000-80-0-0.jpg",
+                "picture_xl": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/1000x1000-000000-80-0-0.jpg"
+            },
+            "album": {
+                "id": 12047936,
+                "title": "Rubber Soul",
+                "deezer_link": "https://www.deezer.com/fr/album/12047936",
+                "cover": "https://api.deezer.com/album/12047936/image",
+                "cover_small": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/56x56-000000-80-0-0.jpg",
+                "cover_medium": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/250x250-000000-80-0-0.jpg",
+                "cover_big": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/500x500-000000-80-0-0.jpg",
+                "cover_xl": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/1000x1000-000000-80-0-0.jpg",
+                "artist": {
+                    "id": 1,
+                    "name": "The Beatles",
+                    "deezer_link": "https://www.deezer.com/artist/1",
+                    "picture": "https://api.deezer.com/artist/1/image",
+                    "picture_small": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/56x56-000000-80-0-0.jpg",
+                    "picture_medium": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/250x250-000000-80-0-0.jpg",
+                    "picture_big": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/500x500-000000-80-0-0.jpg",
+                    "picture_xl": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/1000x1000-000000-80-0-0.jpg"
+                }
+            },
+            "difficulty": 3,
+            "gender": "Baroque Pop",
+            "instruments": {
+                "currentInstrument": {
+                    "id": "chant",
+                    "name": "chant",
+                    "img_src": "/img/Chant.png"
+                },
+                "othersInstruments": [
+                    {
+                        "id": "guitareRythm",
+                        "name": "guitare",
+                        "img_src": "/img/Guitare.png",
+                        "linkToScore": "/scores/guitare/116348264"
+                    },
+                    {
+                        "id": "guitarSolo",
+                        "name": "guitare",
+                        "img_src":"/img/Guitare.png",
+                        "linkToScore": "/scores/guitare/116348264_2"
+                    },
+                    {
+                        "id": "basse",
+                        "name": "basse",
+                        "img_src": "/img/Basse.png",
+                        "linkToScore": "/scores/basse/116348264"
+                    },
+                    {
+                        "id": "batterie",
+                        "name": "batterie",
+                        "img_src":"/img/Batterie.png",
+                        "linkToScore": "/scores/batterie/116348264"
+                    },
+                    {
+                        "id": "choeurs",
+                        "name": "chant",
+                        "img_src": "/img/Chant.png",
+                        "linkToScore": "/scores/chant/116348264_2"
+                    }
+                ]
+            },
+            "bpm": 108,
+            "time_signature": "4/4",
+            "key": "treble",
+            "key_signature": "F",
+            "measures": [
+                {
+                    "id": 1,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "Mi"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "chelle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "isRest": true
+                        },
+                        {
+                            "keys":["d/5"],
+                            "duration": "q",
+                            "lyrics": "ma"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration": "h",
+                            "lyrics": "belle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "these"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "are"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "words"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "that"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "notes": [
+                        {
+                            "keys": ["f/4"],
+                            "duration": "q",
+                            "lyrics": "go"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "lyrics": "to"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "accidental": "n",
+                            "lyrics": "geth"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration":"q",
+                            "lyrics": "er"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "h",
+                            "lyrics": "well,"
+                        },
+                        {
+                            "keys": ["f/4"],
+                            "duration": "q",
+                            "lyrics": "my"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "8",
+                            "beam": "start",
+                            "lyrics": "Mi"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "8",
+                            "beam": "end",
+                            "keyTies" : [
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics": "chelle."
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "w",
+                            "keyTies": [
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"_"
+                        }
+                    ]
+                },
+                {
+                    "id": 11,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "Mi"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "chelle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "isRest": true
+                        },
+                        {
+                            "keys":["d/5"],
+                            "duration": "q",
+                            "lyrics": "ma"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration": "h",
+                            "lyrics": "belle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "sont"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "des"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "mots"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "qui"
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "notes": [
+                        {
+                            "keys": ["f/4"],
+                            "duration": "q",
+                            "lyrics": "vont"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "lyrics": "trés"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "accidental": "n",
+                            "lyrics": "bien"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "lyrics": "en"
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "h",
+                            "lyrics": "semble"
+                        },
+                        {
+                            "keys": ["f/4"],
+                            "duration":"q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "trés"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "mid"
+                            },
+                            "lyrics": "bien"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "end",
+                                "num": 3,
+                                "occupied": 2
+                            },
+                            "lyrics": "en"
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "h",
+                            "dots": 1,
+                            "lyrics": "semble."
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "lyrics": "I"
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "notes": [
+                        {
+                            "keys": ["f/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "love"
+                        },
+                        {
+                            "keys": ["e/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "mid"
+                            },
+                            "lyrics": "you,"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "end",
+                                "num": 3,
+                                "occupied": 2
+                            },
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys": ["f/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "love"
+                        },
+                        {
+                            "keys": ["e/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "mid"
+                            },
+                            "lyrics": "you,"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "end",
+                                "num": 3,
+                                "occupied": 2
+                            },
+                            "lyrics": "I"
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "notes": [
+                        {
+                            "keys": ["g/5"],
+                            "duration": "q",
+                            "lyrics": "love"
+                        },
+                        {
+                            "keys": ["f/5"],
+                            "duration": "h",
+                            "dots": 1,
+                            "lyrics": "you,"
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "8",
+                            "lyrics": "that's"
+                        },
+                        {
+                            "keys": ["d/5"],
+                            "duration":"8",
+                            "beam": "start",
+                            "lyrics": "all"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "8",
+                            "beam": "end",
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys": ["d/5"],
+                            "duration": "q",
+                            "dots": 1,
+                            "lyrics": "want"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "8",
+                            "lyrics": "to"
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "notes": [
+                        {
+                            "keys": ["a/4"],
+                            "duration": "w",
+                            "lyrics": "say,"
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration":"8",
+                            "isRest": true
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "lyrics": "Un"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "beam":"start",
+                            "lyrics": "til"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "beam":"end",
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys":["f/5"],
+                            "duration":"q",
+                            "lyrics": "find"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "beam":"start",
+                            "lyrics": "a"
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration": "8",
+                            "beam": "end",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"way,"
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "keyTies": [
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ],
+                            "lyrics": "_"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "dots":1,
+                            "keyTies": [
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics": "_"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration":"8",
+                            "beam":"start",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "up"
+                                    },
+                                    {
+                                        "status":"end",
+                                        "direction":"down"
+                                    }
+                                ]
+                            ],
+                            "lyrics": "_"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration":"8",
+                            "beam":"end",
+                            "lyrics":"I"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration":"q",
+                            "lyrics": "will"
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "say"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "the"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "on"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "ly"
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "words"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "know"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "that"
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "you'll"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "lyrics": "un"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration":"q",
+                            "lyrics": "der"
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "w",
+                            "lyrics": "stand."
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "Mi"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "chelle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "isRest": true
+                        },
+                        {
+                            "keys":["d/5"],
+                            "duration": "q",
+                            "lyrics": "ma"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration": "h",
+                            "lyrics": "belle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "sont"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "des"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "mots"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "qui"
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "notes": [
+                        {
+                            "keys": ["f/4"],
+                            "duration": "q",
+                            "lyrics": "vont"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "lyrics": "trés"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "accidental": "n",
+                            "lyrics": "bien"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "lyrics": "en"
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "h",
+                            "lyrics": "semble"
+                        },
+                        {
+                            "keys": ["f/4"],
+                            "duration":"q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "trés"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "mid"
+                            },
+                            "lyrics": "bien"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "end",
+                                "num": 3,
+                                "occupied": 2
+                            },
+                            "lyrics": "en"
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "h",
+                            "dots": 1,
+                            "lyrics": "semble."
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "lyrics": "I"
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "notes": [
+                        {
+                            "keys": ["f/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "need"
+                        },
+                        {
+                            "keys": ["e/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "mid"
+                            },
+                            "lyrics": "to,"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "end",
+                                "num": 3,
+                                "occupied": 2
+                            },
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys": ["f/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "need"
+                        },
+                        {
+                            "keys": ["e/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "mid"
+                            },
+                            "lyrics": "to,"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "end",
+                                "num": 3,
+                                "occupied": 2
+                            },
+                            "lyrics": "I"
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "notes": [
+                        {
+                            "keys": ["g/5"],
+                            "duration": "q",
+                            "lyrics": "need"
+                        },
+                        {
+                            "keys": ["f/5"],
+                            "duration": "h",
+                            "dots": 1,
+                            "lyrics": "to,"
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "8",
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys": ["d/5"],
+                            "duration":"8",
+                            "beam": "start",
+                            "lyrics": "need"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "8",
+                            "beam": "end",
+                            "lyrics": "to"
+                        },
+                        {
+                            "keys": ["d/5"],
+                            "duration": "q",
+                            "dots": 1,
+                            "lyrics": "make"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "8",
+                            "lyrics": "you"
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "notes": [
+                        {
+                            "keys": ["a/4"],
+                            "duration": "w",
+                            "lyrics": "see,"
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration":"8",
+                            "isRest": true
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "lyrics": "oh,"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"q",
+                            "lyrics": "what"
+                        },
+                        {
+                            "keys":["f/5"],
+                            "duration":"q",
+                            "lyrics": "you"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration":"8",
+                            "beam":"start",
+                            "lyrics": "mean"
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration": "8",
+                            "beam": "end",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"to"
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "keyTies": [
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ],
+                            "lyrics": "me."
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "dots":1,
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics": "_"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "keyTies": [
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration":"q",
+                            "lyrics": "Un"
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "til"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "do,"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "I'm"
+                        }
+                    ]
+                },
+                {
+                    "id": 40,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "hop"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "ing"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "you"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "will"
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "know"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "lyrics": "what"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration":"q",
+                            "lyrics": "I"
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "w",
+                            "lyrics": "mean."
+                        }
+                    ]
+                },
+                {
+                    "id": 43,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration":"q",
+                            "isRest":true
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys": ["e/5"],
+                            "duration":"8",
+                            "lyrics": "love"
+                        },
+                        {
+                            "keys": ["f/5"],
+                            "duration":"q",
+                            "dots":1,
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"you."
+                        }
+                    ]
+                },
+                {
+                    "id": 44,
+                    "notes": [
+                        {
+                            "keys":["f/5"],
+                            "duration":"w",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "up"
+                                    },
+                                    {
+                                        "status": "start",
+                                        "direction":"up"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 45,
+                    "notes": [
+                        {
+                            "keys":["f/5"],
+                            "duration":"w",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "notes": [
+                        {
+                            "keys":["b/4"],
+                            "duration":"w",
+                            "isRest":true
+                        }
+                    ]
+                },
+                {
+                    "id": 47,
+                    "notes": [
+                        {
+                            "keys":["b/4"],
+                            "duration":"w",
+                            "isRest":true
+                        }
+                    ]
+                },
+                {
+                    "id": 48,
+                    "notes": [
+                        {
+                            "keys":["b/4"],
+                            "duration":"h",
+                            "isRest":true
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration": "q",
+                            "isRest":true
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration":"8",
+                            "isRest":true
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"8",
+                            "lyrics": "I"
+                        }
+                    ]
+                },
+                {
+                    "id": 49,
+                    "notes":[
+                        {
+                            "keys":["f/5"],
+                            "duration":"q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "want"
+                        },
+                        {
+                            "keys":["e/5"],
+                            "duration":"q",
+                            "tuplet":{
+                                "type":"mid"
+                            },
+                            "lyrics": "you,"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "tuplet": {
+                                "type":"end",
+                                "num": 3,
+                                "occupied":2
+                            },
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys":["f/5"],
+                            "duration":"q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "want"
+                        },
+                        {
+                            "keys":["e/5"],
+                            "duration":"q",
+                            "tuplet":{
+                                "type":"mid"
+                            },
+                            "lyrics": "you,"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "tuplet": {
+                                "type":"end",
+                                "num": 3,
+                                "occupied":2
+                            },
+                            "lyrics": "I"
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "notes":[
+                        {
+                            "keys":["g/5"],
+                            "duration":"q",
+                            "dots":1,
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"want"
+                        },
+                        {
+                            "keys":["a/5"],
+                            "duration": "16",
+                            "beam": "start",
+                            "lyrics":"_"
+                        },
+                        {
+                            "keys":["g/5"],
+                            "duration":"16",
+                            "beam":"end",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "keys":["f/5"],
+                            "duration":"h",
+                            "lyrics":"you,"
+                        }
+                    ]
+                },
+                {
+                    "id": 51,
+                    "notes":[
+                        {
+                            "keys":["b/4"],
+                            "duration":"8",
+                            "isRest":true
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"8",
+                            "lyrics": "I"
+                        },
+                        {
+                            "keys":["d/5"],
+                            "duration": "8",
+                            "beam":"start",
+                            "lyrics":"think"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"8",
+                            "beam":"end",
+                            "lyrics":"you"
+                        },
+                        {
+                            "keys":["d/5"],
+                            "duration":"q",
+                            "lyrics":"know"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration":"q",
+                            "lyrics":"by"
+                        }
+                    ]
+                },
+                {
+                    "id": 52,
+                    "notes": [
+                        {
+                            "keys":["a/4"],
+                            "duration":"w",
+                            "lyrics":"now,"
+                        }
+                    ]
+                },
+                {
+                    "id": 53,
+                    "notes": [
+                        {
+                            "keys":["b/4"],
+                            "duration":"8",
+                            "isRest":true
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"8",
+                            "lyrics":"I'll"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"8",
+                            "beam":"start",
+                            "lyrics":"get"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"8",
+                            "beam":"end",
+                            "lyrics":"to"
+                        },
+                        {
+                            "keys":["f/5"],
+                            "duration":"q",
+                            "lyrics":"you"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics":"some"
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "notes":[
+                        {
+                            "keys":["b/4"],
+                            "duration":"8",
+                            "beam":"start",
+                            "keyTies": [
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"how."
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration":"8",
+                            "beam":"end",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"_"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration":"h",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "down"
+                                    },
+                                    {
+                                        "status": "end",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration":"q",
+                            "lyrics":"Un"
+                        }
+                    ]
+                },
+                {
+                    "id": 55,
+                    "notes":[
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics":"til"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics":"I"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics":"do"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics":"I'm"
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "notes":[
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics":"tell"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "lyrics":"ing"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"q",
+                            "dots":1,
+                            "lyrics":"you,"
+                        },
+                        {
+                            "keys":["c/5"],
+                            "duration":"8",
+                            "lyrics":"so"
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "notes":[
+                        {
+                            "keys":["c/5"],
+                            "duration":"h",
+                            "lyrics":"you'll"
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration":"q",
+                            "lyrics":"un"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration":"q",
+                            "lyrics":"der"
+                        }
+                    ]
+                },
+                {
+                    "id": 58,
+                    "notes":[
+                        {
+                            "keys":["g/4"],
+                            "duration":"w",
+                            "lyrics":"stand."
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "notes": [
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "Mi"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "h",
+                            "lyrics": "chelle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 60,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "isRest": true
+                        },
+                        {
+                            "keys":["d/5"],
+                            "duration": "q",
+                            "lyrics": "ma"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration": "h",
+                            "lyrics": "belle,"
+                        }
+                    ]
+                },
+                {
+                    "id": 61,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "sont"
+                        },
+                        {
+                            "keys": ["c/5"],
+                            "duration": "q",
+                            "lyrics": "des"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "mots"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "lyrics": "qui"
+                        }
+                    ]
+                },
+                {
+                    "id": 62,
+                    "notes": [
+                        {
+                            "keys": ["f/4"],
+                            "duration": "q",
+                            "lyrics": "vont"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "lyrics": "trés"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "q",
+                            "accidental": "n",
+                            "lyrics": "bien"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "lyrics": "en"
+                        }
+                    ]
+                },
+                {
+                    "id": 63,
+                    "notes": [
+                        {
+                            "keys": ["g/4"],
+                            "duration": "h",
+                            "lyrics": "semble"
+                        },
+                        {
+                            "keys": ["f/4"],
+                            "duration":"q",
+                            "tuplet": {
+                                "type": "start"
+                            },
+                            "lyrics": "trés"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "mid"
+                            },
+                            "lyrics": "bien"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "duration": "q",
+                            "tuplet": {
+                                "type": "end",
+                                "num": 3,
+                                "occupied": 2
+                            },
+                            "lyrics": "en"
+                        }
+                    ]
+                },
+                {
+                    "id": 64,
+                    "notes":[
+                        {
+                            "keys":["g/4"],
+                            "duration":"h",
+                            "lyrics":"semble."
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration":"8",
+                            "dots":1,
+                            "isRest":true
+                        },
+                        {
+                            "keys":["f/4"],
+                            "duration":"16",
+                            "lyrics":"And"
+                        },
+                        {
+                            "keys":["f/4"],
+                            "duration":"8",
+                            "beam":"start",
+                            "lyrics":"I"
+                        },
+                        {
+                            "keys":["g/4"],
+                            "duration":"8",
+                            "beam":"end",
+                            "lyrics":"will"
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "notes":[
+                        {
+                            "keys":["a/4"],
+                            "duration":"q",
+                            "lyrics":"say"
+                        },
+                        {
+                            "keys":["f/4"],
+                            "duration":"q",
+                            "lyrics":"the"
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration":"q",
+                            "lyrics":"on"
+                        },
+                        {
+                            "keys":["g/4"],
+                            "duration":"8",
+                            "beam":"start",
+                            "lyrics":"ly"
+                        },
+                        {
+                            "keys":["a/4"],
+                            "duration":"8",
+                            "beam":"end",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "start",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"words."
+                        }
+                    ]
+                },
+                {
+                    "id": 66,
+                    "notes":[
+                        {
+                            "keys":["a/4"],
+                            "duration":"q",
+                            "keyTies":[
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ],
+                            "lyrics":"_"
+                        },
+                        {
+                            "keys":["f/4"],
+                            "duration":"q",
+                            "lyrics":"I"
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration":"q",
+                            "lyrics":"know"
+                        },
+                        {
+                            "keys":["b/4"],
+                            "duration":"8",
+                            "isRest":true
+                        },
+                        {
+                            "keys":["g/4"],
+                            "duration":"8",
+                            "lyrics":"that"
+                        }
+                    ]
+                },
+                {
+                    "id": 67,
+                    "notes":[
+                        {
+                            "keys":["a/4"],
+                            "duration":"h",
+                            "lyrics":"you'll"
+                        },
+                        {
+                            "keys":["g/4"],
+                            "duration":"q",
+                            "lyrics":"un"
+                        },
+                        {
+                            "keys":["f/4"],
+                            "duration":"q",
+                            "lyrics":"der"
+                        }
+                    ]
+                },
+                {
+                    "id": 68,
+                    "notes":[
+                        {
+                            "keys":["e/4"],
+                            "duration":"h",
+                            "accidental":"n",
+                            "lyrics":"stand,"
+                        },
+                        {
+                            "keys":["f/4"],
+                            "duration":"q",
+                            "lyrics":"my"
+                        },
+                        {
+                            "keys":["g/4"],
+                            "duration":"q",
+                            "lyrics":"Mi"
+                        }
+                    ]
+                },
+                {
+                    "id": 69,
+                    "notes":[
+                        {
+                            "keys":["g/4"],
+                            "duration":"w",
+                            "lyrics":"chelle"
+                        }
+                    ]
+                },
+                {
+                    "id": 70,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 71,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 72,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 73,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 74,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 75,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 76,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 77,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 78,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                },
+                {
+                    "id": 79,
+                    "notes": [
+                        {
+                            "keys": ["b/4"],
+                            "duration": "w",
+                            "isRest": true                            
+                        }
+                    ]
+                }
+            ],
+            "deezer_link": "https://www.deezer.com/track/116348264",
+            "audioPreview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/a/0/82aed4ff815e92629fbd193688e8de2b.mp3?hdnea=exp=1766499911~acl=/api/1/1/8/2/a/0/82aed4ff815e92629fbd193688e8de2b.mp3*~data=user_id=0,application_id=42~hmac=13cbcab1d1f0d0318a15f8ea197715bb03df69e0774a7c45969a2db8092eb6dd",
+            "scorePreview": "/img/score.jpeg",
+            "duration": 161
+        },
+        {
+            "id": 2,
+            "name": "Michelle-Beatles-Guitare-Rythmic",
+            "difficulty": 4,
+            "instruments" : {
+                "currentInstrument" : {
+                    "id": 1,
+                    "name": "guitare",
+                    "role": "Rythmic",
+                    "img_src": "uploads/instruments/Guitare.png",
+                    "linkToSearch": "/scores/guitare"
+                },
+                "othersInstruments": [
+                    {
+                        "id": 1,
+                        "name": "guitare",
+                        "role": "solo",
+                        "img_src": "uploads/instruments/Guitare.png",
+                        "linkToSearch": "/scores/guitare"
+                    },
+                    {
+                        "id": 2,
+                        "name": "chant",
+                        "img_src": "uploads/instruments/Chant.png",
+                        "linkToSearch": "/scores/chant"
+                    },
+                    {
+                        "id": 3,
+                        "name": "basse",
+                        "img_src": "uploads/instruments/Basse.png",
+                        "linkToSearch": "/scores/basse"
+                    },
+                    {
+                        "id": 2,
+                        "name": "chant",
+                        "role": "choirs",
+                        "img_src": "uploads/instruments/Chant.png",
+                        "linkToSearch": "/scores/chant"
+                    },
+                    {
+                        "id": 5,
+                        "name": "batterie",
+                        "img_src": "uploads/instruments/Batterie.png",
+                        "linkToSearch": "/scores/batterie"
+                    }
+                ]
+            },
+            "bpm": 108,
+            "time_signature": "4/4",
+            "clef": "treble",
+            "clef_signature": "Eb",
+            "measures": [
+                {
+                    "id": 1,
+                    "notes":[
+                        {
+                            "keys": ["c/5"],
+                            "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 5,
+                                    "fingering": {
+                                        "number": "3",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke": "down",
+                            "duration": "q",
+                            "graceNotes": [
+                                {
+                                    "keys": ["b/4"],
+                                    "duration": "8",
+                                    "tab": [
+                                        {
+                                            "str": 3,
+                                            "fret": 3,
+                                            "fingering": {
+                                                "number": "1",
+                                                "position":"left"
+                                            }
+                                        }
+                                    ],
+                                    "keyTies": [
+                                        [
+                                            {
+                                                "status": "start",
+                                                "direction": "down"
+                                            }
+                                        ]
+                                    ],
+                                    "slash": true
+                                }
+                            ],
+                            "keyTies": [
+                                [
+                                    {
+                                        "status": "end",
+                                        "direction": "down"
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "keys": ["e/5", "g/5"],
+                            "tab": [
+                                {
+                                    "str": 2,
+                                    "fret": 4,
+                                    "fingering": {
+                                        "number": "2",
+                                        "position":"left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration": "q"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 4,
+                                    "fingering": {
+                                        "number": "2",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke": "down",
+                            "duration":"q",
+                            "accidental": "n"
+                        },
+                        {
+                            "keys": ["e/5", "g/5"],
+                            "tab": [
+                                {
+                                    "str": 2,
+                                    "fret": 4,
+                                    "fingering": {
+                                        "number": "2",
+                                        "position": "left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position":"left"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration": "8"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        }
+                    ],
+                    "shortText": "Capo V"
+                },
+                {
+                    "id": 2,
+                    "notes":[
+                        {
+                            "keys": ["bb/4"],
+                            "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position": "above"
+                                    }
+                                }
+                            ],
+                            "duration": "q",
+                            "accidental": "b"
+                        },
+                        {
+                            "keys": ["e/5", "g/5"],
+                            "tab": [
+                                {
+                                    "str": 2,
+                                    "fret": 4,
+                                    "fingering": {
+                                        "number": "2",
+                                        "position":"left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position":"left"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration": "q"
+                        },
+                        {
+                            "keys": ["a/4"],
+                            "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 2,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position":"left"
+                                    }
+                                }
+                            ],
+                            "stroke": "down",
+                            "duration": "q",
+                            "accidental": "n"
+                        },
+                        {
+                          "keys": ["e/5", "g/5"],
+                           "tab": [
+                                {
+                                    "str": 2,
+                                    "fret": 4,
+                                    "fingering": {
+                                        "number": "2",
+                                        "position": "left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position":"left"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration": "8"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "notes":[
+                        {
+                            "keys":["ab/4"],
+                            "tab":[
+                                {
+                                    "str": 3,
+                                    "fret": 1,
+                                    "fingering": {
+                                        "number":"1",
+                                        "position":"above"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration": "q",
+                            "accidental":"b"
+                        },
+                        {
+                            "keys": ["c/5", "g/5"],
+                            "tab":[
+                                {
+                                    "str": 2,
+                                    "fret": 1,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position":"left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "3",
+                                        "position":"left"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration":"q"
+                        },
+                        {
+                            "keys": ["c/5", "f/5"],
+                            "tab": [
+                                {
+                                    "str":2,
+                                    "fret":1,
+                                    "fingering": {
+                                        "number":"1",
+                                        "position":"left"
+                                    }
+                                },
+                                {
+                                    "str":1,
+                                    "fret":1,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration":"q"
+                        },
+                        {
+                            "keys":["a/4", "e/5"],
+                            "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 1,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position": "left"
+                                    }
+                                },
+                                {
+                                    "str": 2,
+                                    "fret": 4,
+                                    "fingering": {
+                                        "number": "4",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke": "down",
+                            "duration": "8"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "notes": [
+                        {
+                            "keys": ["g/4", "d/5", "g/5"],
+                            "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 0
+                                },
+                                {
+                                    "str": 2,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position":"left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "1",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke": "down",
+                            "duration":"q",
+                            "graceNotes": [
+                                {
+                                    "keys": ["c/5", "f/5"],
+                                    "duration": "8",
+                                    "tab": [
+                                        {
+                                            "str": 2,
+                                            "fret": 1,
+                                            "fingering": {
+                                                "number": "1",
+                                                "position":"left"
+                                            }
+                                        },
+                                        {
+                                            "str": 1,
+                                            "fret": 1,
+                                            "fingering": {
+                                                "number": "1",
+                                                "position":"left"
+                                            }
+                                        }
+                                    ],
+                                    "keyTies": [
+                                    [
+                                        {
+                                            "status": "start",
+                                            "direction": "down"
+                                        },
+                                        {
+                                            "status": "start",
+                                            "direction": "up"
+                                        }
+                                    ]
+                                ],
+                                    "keySlides": [
+                                        {
+                                            "type": "slide-up",
+                                            "statut": "start"
+                                        },
+                                        {
+                                            "type": "slide-up",
+                                            "statut": "start"
+                                        }
+                                    ],
+                                    "slash": true
+                                }
+                            ],
+                            "keyTies": [
+                                [
+                                    null,
+                                    {
+                                        "status":"end",
+                                        "direction": "down"
+                                    },
+                                    {
+                                        "status": "end",
+                                        "direction": "up"
+                                    }
+                                ]
+                            ],
+                            "slide": {
+                                "type":"slide-down",
+                                "statut": "end"
+                            }
+                        },
+                        {
+                           "keys": ["d/5", "g/5"],
+                           "tab": [
+                                {
+                                    "str": 2,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "3",
+                                        "position":"left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "3",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration": "q"
+                        },
+                        {
+                          "keys": ["g/4"],
+                          "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 0
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration":"8",
+                            "beam": "start"
+                        },
+                        {
+                            "keys": ["d/5", "g/5"],
+                           "tab": [
+                                {
+                                    "str": 2,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "3",
+                                        "position":"left"
+                                    }
+                                },
+                                {
+                                    "str": 1,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "3",
+                                        "position": "left"
+                                    }
+                                }
+                            ],
+                            "stroke":"up",
+                            "duration": "8",
+                            "beam": "continue"
+                        },
+                        {
+                            "keys": ["g/4"],
+                            "tab": [
+                                {
+                                    "str": 3,
+                                    "fret": 0
+                                }
+                            ],
+                            "stroke":"down",
+                            "duration":"8",
+                            "beam": "end"
+                        },
+                        {
+                            "keys": ["b/4"],
+                            "duration": "8",
+                            "isRest": true
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "notes": [
+                        {
+                            "keys": ["c/3"],
+                            "tab": [
+                                {
+                                    "str": 5,
+                                    "fret": 3,
+                                    "fingering": {
+                                        "number": "3",
+                                        "position":"left"
+                                    }
+                                }
+                            ],
+                            "stroke": "down",
+                            "duration": "q"
+                        }
+                    ]
+                }
+            ],
+            "song": {
+                "id": 1,
+                "title": "Michelle",
+                "deezer_link": "https://www.deezer.com/track/116348264",
+                "audio_preview": "https://cdnt-preview.dzcdn.net/api/1/1/8/2/a/0/82aed4ff815e92629fbd193688e8de2b.mp3?hdnea=exp=1773750270~acl=/api/1/1/8/2/a/0/82aed4ff815e92629fbd193688e8de2b.mp3*~data=user_id=0,application_id=42~hmac=d913a5425e10a4f1d8d3af5d4158326ec900535eb2d15d7e0d8f3e328ef6e6d5",
+                "duration": 161,
+                "artist": {
+                    "id": 1,
+                    "name": "The Beatles",
+                    "deezer_link": "https://www.deezer.com/artist/1",
+                    "picture": "https://api.deezer.com/artist/1/image",
+                    "picture_small": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/56x56-000000-80-0-0.jpg",
+                    "picture_medium": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/250x250-000000-80-0-0.jpg",
+                    "picture_big": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/500x500-000000-80-0-0.jpg",
+                    "picture_xl": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/1000x1000-000000-80-0-0.jpg"
+                },
+                "album": {
+                    "id": 12047936,
+                    "title": "Rubber Soul",
+                    "deezer_link": "https://www.deezer.com/fr/album/12047936",
+                    "cover": "https://api.deezer.com/album/12047936/image",
+                    "cover_small": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/56x56-000000-80-0-0.jpg",
+                    "cover_medium": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/250x250-000000-80-0-0.jpg",
+                    "cover_big": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/500x500-000000-80-0-0.jpg",
+                    "cover_xl": "https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/1000x1000-000000-80-0-0.jpg",
+                    "artist": {
+                        "id": 1,
+                        "name": "The Beatles",
+                        "deezer_link": "https://www.deezer.com/artist/1",
+                        "picture": "https://api.deezer.com/artist/1/image",
+                        "picture_small": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/56x56-000000-80-0-0.jpg",
+                        "picture_medium": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/250x250-000000-80-0-0.jpg",
+                        "picture_big": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/500x500-000000-80-0-0.jpg",
+                        "picture_xl": "https://cdn-images.dzcdn.net/images/artist/fe9eb4463ea87452e84ed97e0c86b878/1000x1000-000000-80-0-0.jpg"
+                    }
+                },
+                "gender": {
+                    "id": 132,
+                    "name": "Pop",
+                    "picture": "https://api.deezer.com/genre/132/image",
+                    "picture_small": "https://cdn-images.dzcdn.net/images/misc/db7a604d9e7634a67d45cfc86b48370a/56x56-000000-80-0-0.jpg",
+                    "picture_medium": "https://cdn-images.dzcdn.net/images/misc/db7a604d9e7634a67d45cfc86b48370a/250x250-000000-80-0-0.jpg",
+                    "picture_big": "https://cdn-images.dzcdn.net/images/misc/db7a604d9e7634a67d45cfc86b48370a/500x500-000000-80-0-0.jpg",
+                    "picture_xl": "https://cdn-images.dzcdn.net/images/misc/db7a604d9e7634a67d45cfc86b48370a/1000x1000-000000-80-0-0.jpg"
+                }
+            },
+            "score_preview": "uploads/previews/score_2.png",
+            "popularity": null
+        }
+    ]
+}
