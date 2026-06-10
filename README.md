@@ -23,7 +23,7 @@ https://www.docker.com/get-started/
    cp .env.example .env
    ```
 
-   Edit VITE*HOST \_localhost* sauf si configuration personel autre
+   Edit VITEHOST *localhost* sauf si configuration personel autre
 
 3. Creat and edit .env back :
 
