@@ -17,15 +17,13 @@ import {
 
 import { useState, useRef } from "react";
 
-// Pictures import as modules
-import Cover from '../../img/dont-stop-the-party.png';
-
 // SVGs import from a unique file
 import { HeartLoveOnIcon, AddIcon, ShuffleIcon, VolumeOffIcon, BackIcon, PlayIcon, NextIcon, LoopAllIcon, LyricsIcon, QueueListIcon, ChromcastIcon, VolumeIcon, AudioIcon } from "../Svg";
 
 export interface IPlayeurProps {}
 
 const Playeur: React.FC<IPlayeurProps> = () => {
+
     const [isOpen, setIsOpen] = useState<boolean>(false)
 
     const [volume, setVolume] = useState<number>(50)
@@ -68,7 +66,7 @@ const Playeur: React.FC<IPlayeurProps> = () => {
             alignItems={"center"} width={"33%"}>
                 <Box id="cover" height={"3rem"} width={"3rem"}
                 borderColor={"#3a393d"} borderStyle={"solid"} borderWidth={"0.0625rem"} >
-                    <img src={Cover} alt="Cover" />
+                    <img src={'https://cdn-images.dzcdn.net/images/cover/da80520440d5d29876b9df3e375793b5/56x56-000000-80-0-0.jpg'} alt="Cover" />
                 </Box>
                 <Flex id="title-artist" direction={"column"} justifyContent={"center"} alignItems={"start"} color="#fdfcfe"
                 marginLeft={"0.5rem"}>
@@ -81,7 +79,7 @@ const Playeur: React.FC<IPlayeurProps> = () => {
                         <Box as={Link} onClick={(e) => e.preventDefault()} cursor={'not-allowed'} title="prochainement"
                         to={"direction page album de la piste"}
                         >
-                            Don't Stop The Party
+                            Michelle (Remastered 2009)
                         </Box>
                     </Box>
                     <Box id="artist"
@@ -93,7 +91,7 @@ const Playeur: React.FC<IPlayeurProps> = () => {
                         <Box as={Link} onClick={(e) => e.preventDefault()} cursor={'not-allowed'} title="prochainement"
                         to={"direction page artiste"}
                         >
-                            Black Eyed Peas
+                            The Beatles
                         </Box>
                     </Box>
                 </Flex>

@@ -107,6 +107,7 @@ export interface ISong {
     id: number,
     title: string,
     deezer_link: string,
+    deezer_full_name: string,
     audio_preview: string,
     duration: number,
     artist: IArtist,

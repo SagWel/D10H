@@ -5,9 +5,11 @@ function getScoreById($pdo, $id)
     $sql = $pdo->prepare(
         'SELECT
             s.*,
-            so.id AS song_id, so.title, so.deezer_link, so.audio_preview, so.duration, so.is_explicit,
+            so.id AS song_id, so.title, so.deezer_link, so.deezer_full_name, so.audio_preview, so.duration, so.is_explicit,
             a.id AS artist_id, a.name AS artist_name, a.picture AS artist_picture,
-            al.id AS album_id, al.title AS album_title, al.cover AS album_cover, al.deezer_link AS album_deezer_link,
+            al.id AS album_id, al.title AS album_title,
+            al.cover AS album_cover, al.cover_small AS album_cover_small, al.cover_medium AS album_cover_medium, al.cover_big AS album_cover_big, al.cover_xl AS album_cover_xl,
+            al.deezer_link AS album_deezer_link,
             g.id AS gender_id, g.name AS gender_name,
             COUNT(DISTINCT sv.id) AS popularity_count,
             GROUP_CONCAT(i.name) AS all_instruments_names,
@@ -56,9 +58,11 @@ function getNewsScores($pdo)
     $sql = $pdo->prepare(
         'SELECT
             s.*,
-            so.id AS song_id, so.title, so.deezer_link, so.audio_preview, so.duration, so.is_explicit,
+            so.id AS song_id, so.title, so.deezer_link, so.deezer_full_name, so.audio_preview, so.duration, so.is_explicit,
             a.id AS artist_id, a.name AS artist_name, a.picture AS artist_picture,
-            al.id AS album_id, al.title AS album_title, al.cover AS album_cover, al.deezer_link AS album_deezer_link,
+            al.id AS album_id, al.title AS album_title,
+            al.cover AS album_cover, al.cover_small AS album_cover_small, al.cover_medium AS album_cover_medium, al.cover_big AS album_cover_big, al.cover_xl AS album_cover_xl,
+            al.deezer_link AS album_deezer_link,
             g.id AS gender_id, g.name AS gender_name,
             COUNT(DISTINCT sv.id) AS popularity_count,
             GROUP_CONCAT(i.name) AS all_instruments_names,
@@ -88,9 +92,11 @@ function getPopularScores($pdo)
     $sql = $pdo->prepare(
         'SELECT
             s.*,
-            so.id AS song_id, so.title, so.deezer_link, so.audio_preview, so.duration, so.is_explicit,
+            so.id AS song_id, so.title, so.deezer_link, so.deezer_full_name, so.audio_preview, so.duration, so.is_explicit,
             a.id AS artist_id, a.name AS artist_name, a.picture AS artist_picture,
-            al.id AS album_id, al.title AS album_title, al.cover AS album_cover, al.deezer_link AS album_deezer_link,
+            al.id AS album_id, al.title AS album_title,
+            al.cover AS album_cover, al.cover_small AS album_cover_small, al.cover_medium AS album_cover_medium, al.cover_big AS album_cover_big, al.cover_xl AS album_cover_xl,
+            al.deezer_link AS album_deezer_link,
             g.id AS gender_id, g.name AS gender_name,
             COUNT(DISTINCT sv.id) AS popularity_count,
             GROUP_CONCAT(i.name) AS all_instruments_names,
@@ -121,9 +127,11 @@ function getSuggestionsScores($pdo, $userId)
     $sql = $pdo->prepare(
         'SELECT
             s.*,
-            so.id AS song_id, so.title, so.deezer_link, so.audio_preview, so.duration, so.is_explicit,
+            so.id AS song_id, so.title, so.deezer_link, so.deezer_full_name, so.audio_preview, so.duration, so.is_explicit,
             a.id AS artist_id, a.name AS artist_name, a.picture AS artist_picture,
-            al.id AS album_id, al.title AS album_title, al.cover AS album_cover, al.deezer_link AS album_deezer_link,
+            al.id AS album_id, al.title AS album_title,
+            al.cover AS album_cover, al.cover_small AS album_cover_small, al.cover_medium AS album_cover_medium, al.cover_big AS album_cover_big, al.cover_xl AS album_cover_xl,
+            al.deezer_link AS album_deezer_link,
             g.id AS gender_id, g.name AS gender_name,
             COUNT(DISTINCT sv.id) AS popularity_count,
             GROUP_CONCAT(i.name) AS all_instruments_names,
@@ -161,9 +169,11 @@ function getUserHistoryScores($pdo, $userId)
         'SELECT
             h.played_at,
             s.*,
-            so.id AS song_id, so.title, so.deezer_link, so.audio_preview, so.duration, so.is_explicit,
+            so.id AS song_id, so.title, so.deezer_link, so.deezer_full_name, so.audio_preview, so.duration, so.is_explicit,
             a.id AS artist_id, a.name AS artist_name, a.picture AS artist_picture,
-            al.id AS album_id, al.title AS album_title, al.cover AS album_cover, al.deezer_link AS album_deezer_link,
+            al.id AS album_id, al.title AS album_title,
+            al.cover AS album_cover, al.cover_small AS album_cover_small, al.cover_medium AS album_cover_medium, al.cover_big AS album_cover_big, al.cover_xl AS album_cover_xl,
+            al.deezer_link AS album_deezer_link,
             g.id AS gender_id, g.name AS gender_name,
             COUNT(DISTINCT sv.id) AS popularity_count,
             GROUP_CONCAT(i.name) AS all_instruments_names,
@@ -193,9 +203,11 @@ function getScoresByInstrument($pdo, $instrumentId)
     $sql = $pdo->prepare(
         'SELECT
             s.*,
-            so.id AS song_id, so.title, so.deezer_link, so.audio_preview, so.duration, so.is_explicit,
+            so.id AS song_id, so.title, so.deezer_link, so.deezer_full_name, so.audio_preview, so.duration, so.is_explicit,
             a.id AS artist_id, a.name AS artist_name, a.picture AS artist_picture,
-            al.id AS album_id, al.title AS album_title, al.cover AS album_cover, al.deezer_link AS album_deezer_link,
+            al.id AS album_id, al.title AS album_title,
+            al.cover AS album_cover, al.cover_small AS album_cover_small, al.cover_medium AS album_cover_medium, al.cover_big AS album_cover_big, al.cover_xl AS album_cover_xl,
+            al.deezer_link AS album_deezer_link,
             g.id AS gender_id, g.name AS gender_name,
             COUNT(DISTINCT sv.id) AS popularity_count,
             GROUP_CONCAT(i.name) AS all_instruments_names,
@@ -229,9 +241,11 @@ function getSearchScores($pdo, $searchTerm)
     $sql = $pdo->prepare(
         'SELECT
             s.*,
-            so.id AS song_id, so.title, so.deezer_link, so.audio_preview, so.duration, so.is_explicit,
+            so.id AS song_id, so.title, so.deezer_link, so.deezer_full_name, so.audio_preview, so.duration, so.is_explicit,
             a.id AS artist_id, a.name AS artist_name, a.picture AS artist_picture,
-            al.id AS album_id, al.title AS album_title, al.cover AS album_cover, al.deezer_link AS album_deezer_link,
+            al.id AS album_id, al.title AS album_title,
+            al.cover AS album_cover, al.cover_small AS album_cover_small, al.cover_medium AS album_cover_medium, al.cover_big AS album_cover_big, al.cover_xl AS album_cover_xl,
+            al.deezer_link AS album_deezer_link,
             g.id AS gender_id, g.name AS gender_name,
             COUNT(DISTINCT sv.id) AS popularity_count,
             GROUP_CONCAT(i.name) AS all_instruments_names,

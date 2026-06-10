@@ -16,9 +16,6 @@ import {
     SliderThumb 
 } from "@chakra-ui/react";
 
-/* Import image for background */
-import Cover from '../../img/dont-stop-the-party.png';
-
 /* Import SVG */
 import { HeartLoveOnIcon,
     AddIcon,
@@ -114,7 +111,7 @@ const PlayeurMin: React.FC<IPlayeurMinProps> = () => {
             alignItems={"center"} width={"33%"} height={"100%"}>
                 <Box id="cover" width={"2.5rem"}
                 borderColor={"#3a393d"} borderStyle={"solid"} borderWidth={"0.0625rem"}>
-                    <Image src={Cover} alt="Cover"/>
+                    <Image src={score?.song.album.cover_small} alt="Cover"/>
                 </Box>
                 <Box id="title"
                 fontWeight={"400"} color={"#fdfcfe"} marginLeft={"0.5rem"}
@@ -125,7 +122,7 @@ const PlayeurMin: React.FC<IPlayeurMinProps> = () => {
                     <Box as={Link} onClick={(e) => e.preventDefault()} cursor={'not-allowed'} title="prochainement"
                     to={""}
                     >
-                        Don't Stop The Party
+                        {score?.song.deezer_full_name}
                     </Box>
                 </Box>
                 <Flex id="add-buttons"
