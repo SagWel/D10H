@@ -144,58 +144,6 @@ const BarNav: React.FC<IBarNavProps> = () => {
                     direction={"column"} padding={"0 1rem"}
                     fontFamily={"Inter, Arial, sans-serif"} fontSize={"16px"} fontWeight={"400"}
                     color={"#fdfcfeff"}>
-                            {/* <Flex as={Link} href={"favoris/scorbraries/concert-30-09"} id="concert-30/09" 
-                            alignItems={"center"} gap={"0.5rem"} padding={"0.5rem"} borderRadius={"0.5rem"}
-                            _hover={{
-                                bg: "#29282D",
-                                textDecor: 'none'
-                            }}
-                            >
-                                <Flex alignItems={"center"} justifyContent={"center"}
-                                borderRadius={"0.125rem"}
-                                minWidth={"3rem"} width={"3rem"} height={"3rem"}
-                                opacity={"1"}
-                                >
-                                    <Image src={Var} />                                    
-                                </Flex>
-                                <Box>
-                                    Concert 30/09
-                                </Box>
-                            </Flex>
-                            <Flex as={Link} href={"favoris/scorbraries/rock"} id="rock" alignItems={"center"} gap={"0.5rem"} padding={"0.5rem"} borderRadius={"0.5rem"}
-                            _hover={{
-                                bg: "#29282D",
-                                textDecor: 'none'
-                            }}
-                            >
-                                <Flex alignItems={"center"} justifyContent={"center"}
-                                borderRadius={"0.125rem"}
-                                minWidth={"3rem"} width={"3rem"} height={"3rem"}
-                                opacity={"1"}
-                                >
-                                    <Image src={Rock} />
-                                </Flex>
-                                <Box>
-                                    Rock
-                                </Box>
-                            </Flex>
-                            <Flex as={Link} href={"favoris/scorbraries/au-coin-du-feu"} id="au-coin-du-feu" alignItems={"center"} gap={"0.5rem"} padding={"0.5rem"} borderRadius={"0.5rem"}
-                            _hover={{
-                                bg: "#29282D",
-                                textDecor: 'none'
-                            }}
-                            >
-                                <Flex alignItems={"center"} justifyContent={"center"}
-                                borderRadius={"0.125rem"}
-                                minWidth={"3rem"} width={"3rem"} height={"3rem"}
-                                opacity={"1"}
-                                >
-                                    <Image src={Fire} />
-                                </Flex>
-                                <Box>
-                                    Au coin du feu
-                                </Box>
-                            </Flex> */}
                             <Text fontSize={'14px'} opacity={'0.6'}>
                                 PROCHAINEMNT ...
                             </Text>
