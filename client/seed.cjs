@@ -7,7 +7,7 @@ async function uploadMeasures() {
       host: "localhost",
       user: "root",
       password: "",
-      database: "D10H_!_Vtest",
+      database: "D10h_!_Vtest",
     });
 
     // 1. On lit le fichier

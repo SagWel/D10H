@@ -1,8 +1,8 @@
-# D10H
+# D10h
 
 Main project during web developer course in Angoulême's AFEC centre :
 
-D10H is a Third-party application using the Deezer API to provide a complementary synchronized music learning service
+D10h is a Third-party application using the Deezer API to provide a complementary synchronized music learning service
 
 ## Installation
 
@@ -12,8 +12,8 @@ https://www.docker.com/get-started/
 1. Clone Repository :
 
    ```bash
-   git clone https://github.com/SagWel/D10H.git
-   cd D10H
+   git clone https://github.com/SagWel/D10h.git
+   cd D10h
    ```
 
 2. Creat and edit .env front :
@@ -23,7 +23,7 @@ https://www.docker.com/get-started/
    cp .env.example .env
    ```
 
-   Edit VITEHOST *localhost* sauf si configuration personel autre
+   Edit VITEHOST _localhost_ sauf si configuration personel autre
 
 3. Creat and edit .env back :
 
@@ -41,7 +41,7 @@ https://www.docker.com/get-started/
    docker-compose up -d --build
    ```
 
-5. Go to D10H :
+5. Go to D10h :
 
    http://localhost:5173/
 
@@ -86,8 +86,8 @@ https://www.docker.com/get-started/
 
 ## Tree Structure
 
-D10H  
-├── Prototype D10H.url  
+D10h  
+├── Prototype D10h.url  
 ├── README.md  
 ├── client  
 │ ├── Dockerfile  

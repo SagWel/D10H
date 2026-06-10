@@ -32,7 +32,7 @@ const PageResetPassword: React.FC<IPageResetPasswordProps> = () => {
                             fontSize={"1,125rem"} fontWeight={"600"}
                             color={"#fdfcfe"}
                             _hover={{textDecor: "none", color: "#a238ff"}}>
-                            D10H
+                            D10h
                             </Link>
                         </Flex>
                     </Flex>

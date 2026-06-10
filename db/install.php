@@ -46,13 +46,13 @@ try {
 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $sql = $pdo->prepare('CREATE DATABASE IF NOT EXISTS d10h_database');
+    $sql = $pdo->prepare('CREATE DATABASE IF NOT EXISTS D10h_database');
 
     $sql->execute();
 
     echo "Base de donnée crée avec succes !\n";
 
-    $pdo->exec('USE d10h_database');
+    $pdo->exec('USE D10h_database');
 
     $init = file_get_contents(__DIR__ . '/init.sql');
 
@@ -69,7 +69,7 @@ MYSQL_HOST=$host
 MYSQL_PORT=3306
 MYSQL_USER=$user
 MYSQL_PWD=$password
-MYSQL_NAME=d10h_database
+MYSQL_NAME=D10h_database
 EOD;
 
     file_put_contents(__DIR__ . '/../server/.env', $env);

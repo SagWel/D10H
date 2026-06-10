@@ -15,10 +15,13 @@ import {
   Button,
   FormHelperText,
   Wrap,
+  Image
 } from "@chakra-ui/react";
 import "../../style.css";
 import { useState } from "react";
 import { useNavigate, type NavigateFunction } from "react-router-dom";
+
+import LogoD10h from '../../../public/imgs/LogoD10h.png'
 
 /* import hook */
 import { useAuth } from "../../hooks/useAuth";
@@ -123,9 +126,9 @@ const PageLogin: React.FC<IPageLoginProps> = () => {
         >
           <Flex alignItems={"center"} w={"100%"}>
             <Flex
-              justifyContent={"left"}
+              justifyContent={"left"} alignItems={'center'}
               marginInlineEnd={0}
-              gap={8}
+              gap={1}
               w={"100%"}
             >
               <Link
@@ -141,9 +144,8 @@ const PageLogin: React.FC<IPageLoginProps> = () => {
                 fontSize={"1,125rem"}
                 fontWeight={"600"}
                 color={"#fdfcfe"}
-                _hover={{ textDecor: "none", color: "#a238ff" }}
               >
-                D10H
+                <Image src={LogoD10h} h={'42px'} w={'86px'}/>
               </Link>
             </Flex>
           </Flex>

@@ -2184,7 +2184,7 @@ const PageAccount: React.FC<IPageAccountProps> = () => {
                   lineHeight={"24px"}
                   textDecor={"none"}
                 >
-                  Informations Deezer ou D10H! visible par les internautes
+                  Informations Deezer ou D10h! visible par les internautes
                 </Heading>
                 <chakra.hr
                   aria-orientation="horizontal"

@@ -1,8 +1,10 @@
-import { Box, Link, Flex, Heading, Text, chakra, List, ListItem } from '@chakra-ui/react'
+import { Box, Link, Flex, Heading, Text, chakra, List, ListItem, Image } from '@chakra-ui/react'
 import { LogoTempo } from '../../components/Svg'
 import useWindowWidth from '../../hooks/useWindowWidth'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+
+import LogoD10h from '../../../public/imgs/LogoD10h.png'
 
 export interface IPageInfosProps {}
 
@@ -29,7 +31,7 @@ const PageInfos: React.FC<IPageInfosProps> = () => {
             bg={"#0F0D13"}
             borderBottom={width >= mobileBreackpoint ? '1px solid #555257' : undefined}
             boxSizing='border-box'>
-                <Link href='/'
+                <Link href='/' display={'flex'} gap={1} alignItems={'center'}
                 flexGrow={0}
                 textAlign={"center"} color={"#fdfcfe"} textDecor={"none"}
                 w={'fit-content'}
@@ -38,7 +40,8 @@ const PageInfos: React.FC<IPageInfosProps> = () => {
                 zIndex={"201"} cursor={"pointer"}
                 _hover={{textDecor: "none"}}>
                     <LogoTempo />
-                    &nbsp;D10H
+                    {/* &nbsp;D10h */}
+                    <Image src={LogoD10h} h={'42px'} w={'86px'}/>
                 </Link>
                 {width >= desktopBreackpoint && <Flex className='topbar-exposed-links' justify={'flex-end'} flexDir={"row"} flexGrow={1}
                 ml={"112px"} mr={"calc(14px*2)"}>
@@ -326,7 +329,7 @@ const PageInfos: React.FC<IPageInfosProps> = () => {
                         fontSize={"35px"} fontWeight={"700"}
                         color={"#0f0d13"}
                         lineHeight={"1.2"} textAlign={"center"}>
-                            La lecture musicale par D10H
+                            La lecture musicale par D10h
                         </Text>
                         <Text as={"p"} display={"block"}
                         marginBlock={"1em"} marginInline={0}

@@ -989,7 +989,7 @@ const PageAccountNotifications: React.FC<IPageAccountNotifictions> = () => {
                                             Actualités, offres et bons plans
                                         </Text>
                                         <Text color={'#a19fa4'} fontSize={'0.75rem'} m={0}>
-                                            L'actualité D10H, nos conseils et nos offres
+                                            L'actualité D10h, nos conseils et nos offres
                                         </Text>
                                     </Td>
                                     <Td 
@@ -1099,7 +1099,7 @@ const PageAccountNotifications: React.FC<IPageAccountNotifictions> = () => {
                                     textAlign={'start'}
                                     borderColor={'#38373b'} borderBottom={'1px solid #4e4c51'}>
                                         <Text fontWeight={'700'} fontSize={'1rem'} m={0}>
-                                            Nos conseils pour utiliser D10H
+                                            Nos conseils pour utiliser D10h
                                         </Text>
                                         <Text color={'#a19fa4'} fontSize={'0.75rem'} m={0}>
                                             Apprenez à tirer le meilleur parti de nos outils de lecture, découvrez nos fonctionnalités avancées d'annotation et rejoignez notre programme de testeurs pour façonner l'avenir de la plateforme.
@@ -1215,7 +1215,7 @@ const PageAccountNotifications: React.FC<IPageAccountNotifictions> = () => {
                                             Mon opinion
                                         </Text>
                                         <Text color={'#a19fa4'} fontSize={'0.75rem'} m={0}>
-                                            Partager mes suggestions pour améliorer l'expérience D10H
+                                            Partager mes suggestions pour améliorer l'expérience D10h
                                         </Text>
                                     </Td>
                                     <Td 

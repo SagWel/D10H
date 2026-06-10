@@ -150,7 +150,7 @@ function HeaderMin() {
   }
 
   const handleResetHistory: () => void = () => {
-    localStorage.removeItem("D10H_!_Search_History");
+    localStorage.removeItem("D10h_!_Search_History");
   };
 
   const handleAvatarClick = () => {

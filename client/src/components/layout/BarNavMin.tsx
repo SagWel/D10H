@@ -25,9 +25,9 @@ const BarNavMin: React.FC<IBarNavMinProps> = () => {
                 p={"0 1rem 0 1rem"} 
                 color={"#fdfcfeff"}
                 textAlign={"center"}>
-                    <Box id="D10H_!"
+                    <Box id="D10h_!"
                     fontSize={"1,125rem"} fontWeight={"600"}>
-                        <Link to={"/"}>D10H</Link>
+                        <Link to={"/"}>D10h</Link>
                     </Box>
                     <Flex as="a" id="Deezer_Link" href="https://www.deezer.com/"
                     justifyContent={"center"}

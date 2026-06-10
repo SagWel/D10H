@@ -12,7 +12,7 @@ const useSearchHistory = () => {
 
     // Transforms the data from lacalStorage into an array of those data
     const [history, setHistory] = useState<IHistoryItem[]>(() => {
-        const storedHistory = localStorage.getItem("D10H_!_Search_History")
+        const storedHistory = localStorage.getItem("D10h_!_Search_History")
 
         if (storedHistory) {
             try {
@@ -27,7 +27,7 @@ const useSearchHistory = () => {
 
     useEffect(() => {
         const jsonHistory = JSON.stringify(history)
-        localStorage.setItem("D10H_!_Search_History", jsonHistory)
+        localStorage.setItem("D10h_!_Search_History", jsonHistory)
     }, [history])
 
     // Adds the latest search query in search history

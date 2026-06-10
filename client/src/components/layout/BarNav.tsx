@@ -30,8 +30,8 @@ const BarNav: React.FC<IBarNavProps> = () => {
                 <Box id="Links" 
                 p={"0 1rem 0px 1rem"} 
                 color={"#fdfcfeff"}>
-                    <Box id="D10H_!" 
-                    paddingLeft={"105px"}
+                    <Box id="D10h_!" 
+                    paddingLeft={"120px"}
                     fontSize={"1,125rem"} fontWeight={"600"}>
                         <Link href={"/"}
                         _active={{
@@ -45,7 +45,7 @@ const BarNav: React.FC<IBarNavProps> = () => {
                             color: '#bb73ff',
                             textDecor: 'none'
                         }}>
-                            D10H
+                            D10h
                         </Link>
                     </Box>
                     <a id="Deezer_Link" href="https://www.deezer.com/">

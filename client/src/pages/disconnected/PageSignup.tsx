@@ -73,7 +73,7 @@ const PageSignup: React.FC<IPageSignupProps> = () => {
   };
 
   let informationsData: InformationsType = {
-    appName: "D10H_!",
+    appName: "D10h_!",
     steps: ["email_or_phone", "create_password", "user_profile"],
     userData: {},
   };
@@ -351,7 +351,7 @@ const PageSignup: React.FC<IPageSignupProps> = () => {
                 _hover={{ textDecor: "none" }}
               >
                 <LogoTempo />
-                &nbsp;D10H
+                &nbsp;D10h
               </Link>
             </Flex>
           </Flex>
@@ -574,7 +574,7 @@ const PageSignup: React.FC<IPageSignupProps> = () => {
                       onClick={(e) => {
                         e.preventDefault();
                         informationsData = {
-                          appName: "D10H_!",
+                          appName: "D10h_!",
                           steps: [
                             "email_or_phone",
                             "create_password",
@@ -1397,7 +1397,7 @@ const PageSignup: React.FC<IPageSignupProps> = () => {
                             passwordNumber
                           ) {
                             informationsData = {
-                              appName: "D10H_!",
+                              appName: "D10h_!",
                               steps: [
                                 "email_or_phone",
                                 "create_password",

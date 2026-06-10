@@ -3,7 +3,7 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 --
--- Base de données : `d10h_!`
+-- Base de données : `D10h_!`
 --
 
 --
