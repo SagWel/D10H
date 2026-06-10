@@ -8,8 +8,6 @@ $password = $_POST['password'];
 
 $user = getUserByEmail($pdo, $email);
 
-error_log('DEBUG USER AUTHCONTROLLER :' . $user);
-
 /* SSO simulé désactivé */
 // if (!$user) {
 //     $passwordHash = password_hash($password, PASSWORD_ARGON2ID);
