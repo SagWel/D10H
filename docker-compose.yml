@@ -44,4 +44,4 @@ services:
       - backend
 
 volumes:
-  mysql_data :
+  mysql_data:
