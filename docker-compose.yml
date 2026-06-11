@@ -42,6 +42,3 @@ services:
       - /app/node_modules
     depends_on:
       - backend
-
-volumes:
-  mysql_data:
