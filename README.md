@@ -28,13 +28,15 @@ https://www.docker.com/get-started/
 3. Creat and edit .env back :
 
    ```bash
-   cd../server
+   cd ../server
    cp .env.example .env
    ```
 
    Edit MYSQL_HOST, MYSQL_PORT, MYSQL_NAME, MYSQL_USER and MSQL_PWD with db environement content in `docker-commpose.yml`
 
-4. Start Docker service :
+4. Start **Docker Desktop** if you use windows
+
+5. Start Docker service :
 
    ```bash
    cd ..
