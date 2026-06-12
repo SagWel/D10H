@@ -33,7 +33,8 @@ const ModalManager: React.FC<IModalManagerProps> = () => {
     }
 
     return (
-        <StandardModal isOpen={!!name} onClose={onClose} heading={modalProps.title} bg={modalProps.bg} border={modalProps.border} footerBtnContent={modalProps.footerBtnContent} footerOnClick={modalProps.footerOnClick} >
+        <StandardModal isOpen={!!name} onClose={onClose} heading={modalProps.title}
+        bg={modalProps.bg} border={modalProps.border} topPosition={modalProps.topPosition} >
             <ActiveModal {...modalProps} />
         </StandardModal>
     )

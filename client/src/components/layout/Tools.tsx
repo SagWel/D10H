@@ -73,7 +73,8 @@ const Tools: React.FC<IToolsProps> = () => {
 
     const handleTempoManagement: () => void = useCallback(() => {
         onOpen('TEMPO_MANAGEMENT', {
-            title: 'Gestion du tempo'
+            title: 'Gestion du tempo',
+            topPosition: '25%'
         })
     }, [onOpen])
 

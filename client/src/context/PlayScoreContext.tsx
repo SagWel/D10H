@@ -87,41 +87,15 @@ const PlayScoreProvider = ({ children } : PlayScoreProviderProps) => {
     })
 
     const statesContextValue = useMemo(() => ({
-        onPlay,
-        previousMeasure,
-        backToStart,
-        nextMeasure,
-        countdown,
-        metronome,
-        tempoPercent,
-        learningMode,
-        looper,
-        solo,
-        mute,
-    }),[onPlay,
-        previousMeasure,
-        backToStart,
-        nextMeasure,
-        countdown,
-        metronome,
-        tempoPercent,
-        learningMode,
-        looper,
-        solo,
-        mute,])
+        onPlay, previousMeasure, backToStart, nextMeasure, countdown,
+        metronome, tempoPercent, learningMode, looper, solo, mute,
+    }),[onPlay, previousMeasure, backToStart, nextMeasure, countdown, 
+        metronome, tempoPercent, learningMode, looper, solo, mute,])
 
     const dispatchContextValue = useMemo(() => ({
-        setOnPlay,
-        setPreviousMeasure,
-        setBackToStart,
-        setNextMeasure,
-        setCountdown,
-        setMetronome,
-        setTempoPercent,
-        setLearningMode,
-        setLooper,
-        setSolo,
-        setMute
+        setOnPlay, setPreviousMeasure, setBackToStart, setNextMeasure,
+        setCountdown, setMetronome, setTempoPercent, setLearningMode,
+        setLooper, setSolo, setMute
     }),[])
 
     return (

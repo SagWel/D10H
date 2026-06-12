@@ -1,6 +1,5 @@
-import { Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, ModalOverlay, ModalCloseButton, Heading, ButtonGroup } from "@chakra-ui/react";
+import { Modal, ModalBody, ModalContent, ModalHeader, ModalOverlay, ModalCloseButton, Heading } from "@chakra-ui/react";
 import { type ReactNode } from "react";
-import StandardButton from "../buttons/StandardButton";
 import { useModals } from "../../hooks/useModals";
 
 export interface IStandardModalProps {
@@ -9,12 +8,11 @@ export interface IStandardModalProps {
     heading?: string,
     bg?: string,
     border?: string
-    footerBtnContent?: string,
-    footerOnClick?: () => void,
+    topPosition?: string
     children: ReactNode,
  }
 
-const StandardModal: React.FC<IStandardModalProps> = ({ heading, children, footerBtnContent, footerOnClick, isOpen, onClose, bg, border }) => {
+const StandardModal: React.FC<IStandardModalProps> = ({ heading, children, isOpen, topPosition, onClose, bg, border }) => {
 
     const { name, updateProps } = useModals()
 
@@ -34,7 +32,7 @@ const StandardModal: React.FC<IStandardModalProps> = ({ heading, children, foote
             <ModalContent
             p={".75rem"}
             maxW={'600px'} h={"fit-content"}
-            bg={bg || "#000000"} top={'25%'} border={border || ''}
+            bg={bg || "#000000"} top={topPosition ?? '0'} border={border || undefined}
             borderRadius={"0.5rem"} gap={'1rem'}
             boxShadow={"rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,rgba(0, 0, 0, 0.2) 0px 5px 10px,rgba(0, 0, 0, 0.4) 0px 15px 40px"}
             style={{
@@ -74,51 +72,6 @@ const StandardModal: React.FC<IStandardModalProps> = ({ heading, children, foote
                 w={'100%'}>
                     {children}
                 </ModalBody>
-
-                {
-                (footerBtnContent && footerOnClick) && 
-                <ModalFooter 
-                border={'1px solid #38373b'}>
-                    <ButtonGroup 
-                    display={"flex"} justifyContent={'flex-end'}
-                    p={'1.5rem'}>
-                        <StandardButton content="Annuler" 
-                        bg={'transparent'} color={'#ffffff'} 
-                        onClick={onClose}
-                        _active={{
-                            color: '#e2dfe6',
-                            bg: '#38373b'
-                        }}
-                        _focus={{
-                            zIndex: 1
-                        }}
-                        _focusVisible={{
-                            boxShadow: 'none',
-                            outlineColor: '#ad47ff'
-                        }}
-                        _hover={{
-                            color: '#f5f2f8',
-                            bg: '#2e2c30'
-                        }}/>
-
-                        <StandardButton content={footerBtnContent}
-                        bg={'#ad47ff'} color={'#ffffff'}
-                        onClick={footerOnClick}
-                        _active={{
-                            color: '#e2dfe6',
-                            bg: '#ca97ff'
-                        }} 
-                        _focusVisible={{
-                            boxShadow: 'none',
-                            outlineColor: '#f5f2f8'
-                        }}
-                        _hover={{
-                            color: '#f5f2f8',
-                            bg: '#bb73ff'
-                        }}/>
-                    </ButtonGroup>
-                </ModalFooter>
-                }
             </ModalContent>
         </Modal>
     )

@@ -122,7 +122,7 @@ const UserInstrumentManagement: React.FC<IUserInstrumentManagementProps> = ({ da
                     </Flex>
                     <Stack gap={'1rem'} w={'100%'}>
                         <Flex>
-                            <Select name="instrument" id="identity" value={currentInstrument?.id ?? ""} placeholder="Selectionner un instrument" required
+                            <Select name="instrument" id="identity" value={currentInstrument?.id ?? ""} placeholder="Selectionner instrument" required
                             pos={"relative"} textTransform={"capitalize"}
                             pb={"1px"} mr={'1px'}
                             w={"50%"} h={"3rem"} minW={0} minH={"3rem"}
