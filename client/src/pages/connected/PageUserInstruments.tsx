@@ -16,7 +16,7 @@ const UserInstruments: React.FC<IUserInstrumentsProps> = () => {
 
     return (
         <Box id="main" overflowY={"auto"} height={"100%"}>
-            <Box id="header-container" marginBottom={"12px"} boxShadow={"0 2px 2px"}>
+            <Box id="header-container" marginBottom={"12px"} boxShadow={'0 2px 2px #2d2d3214'}>
                 <Box id="container" padding={"24px 24px 0"} marginX={"49px"}>
                     <chakra.nav boxShadow={"none"} marginBottom={"0"} width={"100%"}>
                         <Box padding={0} width={"100%"}>

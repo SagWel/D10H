@@ -46,7 +46,7 @@ const PageListeInstruments: React.FC<IPageListeInstrumentsProps> = () => {
 
   return (
     <>
-      <Box id="header-container" marginBottom={"12px"} boxShadow={"0 2px 2px"}>
+      <Box id="header-container" marginBottom={"12px"} boxShadow={"0 2px 2px #2d2d3214"}>
         <Box id="container" padding={"24px 24px 0"} marginX={"49px"}>
           <chakra.nav marginBottom={"0"} width={"100%"} boxShadow={"none"}>
             <Box padding={0} width={"100%"}>
@@ -73,7 +73,9 @@ const PageListeInstruments: React.FC<IPageListeInstrumentsProps> = () => {
                     textDecoration={"none"}
                     backgroundColor={"transparent"}
                     borderBottom={"transparent 2px solid"}
-                  >
+                  _hover={{
+                      borderColor: "#a19fa4"
+                  }}>
                     Mes instruments
                   </Box>
                 </ListItem>

@@ -653,7 +653,7 @@ const ScoreRenderChant: React.FC<IScoreRenderChantProps> = () => {
     if (width < 646) {
         return (
             <Flex justify={'center'} align={'center'} h={'full'} textAlign={'center'}>
-                <Text color={"#242222"} fontWeight={'700'} px={1.5}>
+                <Text color={"#242222"} fontWeight={'700'} px={1.5} zIndex={'200'}>
                     Cet outil n'ai pas disponible pour ce format d'écran
                 </Text>
             </Flex>
