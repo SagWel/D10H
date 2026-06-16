@@ -1,4 +1,4 @@
-import { Grid, Box} from '@chakra-ui/react';
+import { Grid, Box, Spinner, Center} from '@chakra-ui/react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 
@@ -234,8 +234,11 @@ function App() {
     )
   } else if (loading) {
     return (
-      <Box h={"100%"} w={"100%"} bg={"#000000"}>
-      </Box>
+      <Center      
+      minH={"100vh"} minW={"100%"} 
+      bg={"#000000"}>
+        <Spinner color='#AD47FF' thickness='4px' speed='0.9s' size={'xl'}/>
+      </Center>
     )
   } else if (!user || !isAuthenticated) {
     /* pages for not logged in users */
