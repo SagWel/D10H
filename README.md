@@ -13,7 +13,6 @@ https://www.docker.com/get-started/
 
    ```bash
    git clone https://github.com/SagWel/D10h.git
-   cd D10h
    ```
 
 2. Creat and edit .env front :
@@ -32,7 +31,7 @@ https://www.docker.com/get-started/
    cp .env.exemple .env
    ```
 
-   Edit MYSQL_HOST, MYSQL_PORT, MYSQL_NAME, MYSQL_USER and MSQL_PWD with db environement content in `docker-commpose.yml`
+   Edit MA_SUPER_CLEF_SECRETE
 
 4. Start **Docker Desktop** if you use windows
 
