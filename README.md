@@ -13,6 +13,7 @@ https://www.docker.com/get-started/
 
    ```bash
    git clone https://github.com/SagWel/D10h.git
+   cd d10h
    ```
 
 2. Creat and edit .env front :
