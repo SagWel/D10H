@@ -20,7 +20,7 @@ https://www.docker.com/get-started/
 
    ```bash
    cd client
-   cp .env.example .env
+   cp .env.exemple .env
    ```
 
    Edit VITEHOST _localhost_ sauf si configuration personel autre
@@ -29,7 +29,7 @@ https://www.docker.com/get-started/
 
    ```bash
    cd ../server
-   cp .env.example .env
+   cp .env.exemple .env
    ```
 
    Edit MYSQL_HOST, MYSQL_PORT, MYSQL_NAME, MYSQL_USER and MSQL_PWD with db environement content in `docker-commpose.yml`
